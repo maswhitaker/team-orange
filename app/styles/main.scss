@@ -1,3 +1,35 @@
 @import "../bower_components/bourbon/dist/bourbon";
 
 * { @include box-sizing(border-box); }
+
+#big-container{
+  width: 965px;
+  height: 1400px;
+  header{
+    height: 300px;
+    #logo{
+      margin-left: auto;
+      margin-right: auto;
+      height: 30px;
+      width: 40px;
+    }
+    h1{
+
+    }
+    h2{
+
+    }
+  }
+  section{
+    h1{
+      text-align: center;
+      width: 25%;
+    }
+  }
+  span{
+    display: inline-block;
+    img{
+      width:33%;
+    }
+  }
+}
